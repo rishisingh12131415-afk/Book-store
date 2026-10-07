@@ -1,0 +1,107 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #f7bd83;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f7bd83;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 6px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    background-color: #f7bd83;
+    border: 1px solid gray;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #fbe5d6;
+}
+
+
+.header {
+    background-color: #f7bd83;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title {
+    float: left;
+    width: 80%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu {
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fbe5d6;
+    padding: 12px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+
+h3 {
+    background-color: #f7bd83;
+    padding: 10px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #fbe5d6;
+    color: blue;
+}
